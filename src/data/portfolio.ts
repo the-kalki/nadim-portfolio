@@ -59,7 +59,7 @@ export const experience = [
     {
         company: "EDF International Networks",
         role: "Application Support Engineer",
-        period: "6 Months",
+        period: "1 Year",
         description: "Worked on Bihar Bijli smart meter project - monitoring applications, data analyzation & data visualization.",
         highlights: [
             "Application monitoring and support",
