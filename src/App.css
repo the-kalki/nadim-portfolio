@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  padding-top: 70px;
+  /* Header height */
+}
+
+/* Ensure sections have proper spacing */
+.main>section {
+  scroll-margin-top: 80px;
+}

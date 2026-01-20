@@ -1,0 +1,15 @@
+.command-line {
+    margin-bottom: 1rem;
+}
+
+.command-input {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.command-output {
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--neon-cyan);
+}

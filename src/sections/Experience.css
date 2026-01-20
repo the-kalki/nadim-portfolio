@@ -1,0 +1,168 @@
+.experience-content {
+    margin-top: 1rem;
+}
+
+.exp-section {
+    margin-bottom: 2.5rem;
+}
+
+.exp-section:last-child {
+    margin-bottom: 0;
+}
+
+.exp-heading {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Experience Card */
+.exp-card {
+    padding: 1.5rem;
+    background: rgba(0, 255, 255, 0.02);
+    border: 1px solid rgba(0, 255, 255, 0.1);
+    border-left: 3px solid var(--neon-cyan);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    transition: var(--transition-fast);
+}
+
+.exp-card:hover {
+    background: rgba(0, 255, 255, 0.05);
+    border-left-color: var(--neon-magenta);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.exp-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.exp-role {
+    color: var(--neon-cyan);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.exp-company {
+    color: var(--neon-magenta);
+    font-size: 0.9rem;
+}
+
+.exp-period {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}
+
+.exp-description {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.exp-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exp-highlights li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.highlight-marker {
+    color: var(--neon-green);
+    flex-shrink: 0;
+}
+
+/* Education Timeline */
+.edu-timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.edu-timeline::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--neon-magenta), var(--neon-cyan));
+}
+
+.edu-item {
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.edu-item:last-child {
+    padding-bottom: 0;
+}
+
+.edu-marker {
+    position: absolute;
+    left: -2rem;
+    top: 0.5rem;
+    width: 14px;
+    height: 14px;
+    background: var(--bg-primary);
+    border: 3px solid var(--neon-magenta);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--neon-magenta);
+}
+
+.edu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.edu-period {
+    color: var(--neon-green);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+}
+
+.edu-degree {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.edu-institution {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .exp-header {
+        flex-direction: column;
+    }
+
+    .exp-period {
+        align-self: flex-start;
+    }
+}
