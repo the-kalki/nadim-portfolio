@@ -71,7 +71,12 @@ export function Skills() {
                                             viewport={{ once: true }}
                                             transition={{ delay: index * 0.15 }}
                                         >
-                                            <span className="cert-icon">📜</span>
+                                            <svg className="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                                <path d="M14 2v6h6" />
+                                                <line x1="16" y1="13" x2="8" y2="13" />
+                                                <line x1="16" y1="17" x2="8" y2="17" />
+                                            </svg>
                                             <div className="cert-info">
                                                 <span className="cert-title">{cert.title}</span>
                                                 <span className="cert-provider">{cert.provider}</span>

@@ -26,11 +26,10 @@ export const education = [
 export const skills = {
     technical: [
         { name: "SQL", level: 85 },
-        { name: "Java", level: 75 },
-        { name: "HTML", level: 90 },
-        { name: "CSS", level: 85 },
-        { name: "JavaScript", level: 80 },
-        { name: "Python", level: 75 },
+        { name: "Python (Pandas, NumPy, Matplotlib, Seaborn)", level: 80 },
+        { name: "Power BI", level: 85 },
+        { name: "Excel (Pivot, Formatting)", level: 80 },
+        { name: "Machine Learning Basics", level: 70 },
     ],
     soft: [
         "Problem Solving",
@@ -53,13 +52,21 @@ export const training = [
         title: "Data Analytics using Python",
         provider: "NPTEL",
     },
+    {
+        title: "Power BI",
+        provider: "Simplilearn",
+    },
+    {
+        title: "Product Design and Development",
+        provider: "NPTEL",
+    },
 ];
 
 export const experience = [
     {
         company: "EDF International Networks",
         role: "Application Support Engineer",
-        period: "1 Year",
+        period: "1.6 Years",
         description: "Worked on Bihar Bijli smart meter project - monitoring applications, data analyzation & data visualization.",
         highlights: [
             "Application monitoring and support",
@@ -103,6 +110,6 @@ export const extracurricular = [
 
 export const socialLinks = {
     github: "https://github.com/nadimraza",
-    linkedin: "https://linkedin.com/in/nadimraza",
+    linkedin: "https://www.linkedin.com/in/_nadim-raza-920",
     email: "mailto:nadimraza0123@gmail.com",
 };

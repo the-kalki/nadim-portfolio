@@ -82,7 +82,10 @@
 }
 
 .cert-icon {
-    font-size: 1.5rem;
+    width: 24px;
+    height: 24px;
+    stroke: var(--neon-cyan);
+    flex-shrink: 0;
 }
 
 .cert-info {
